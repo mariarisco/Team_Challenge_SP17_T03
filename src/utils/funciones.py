@@ -10,3 +10,10 @@ month_to_day = {
 
 def convert_month_to_day(X):
     return np.array([[month_to_day[m]] for m in X.values.ravel()])
+
+
+def cat_binary(df):
+    df["default"] = df["default"] == "yes"
+    df["housing"] = df["housing"] == "yes"
+    df["loan"] = df["loan"] == "yes"
+    return df
