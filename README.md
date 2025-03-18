@@ -33,6 +33,7 @@ Team_Challenge_SP17_T03/
 The virtual environment defined by the environment.yml file is built using Conda and relies on the conda-forge and defaults channels for package management. It is configured for Python 3.9 and includes a comprehensive set of dependencies for data science, machine learning, and development.
 
 How to Download the Repository and Run the Code
+
 Follow these steps to download the repository and run the code:
 
 1. Clone the Repository
