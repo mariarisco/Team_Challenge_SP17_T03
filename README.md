@@ -8,15 +8,25 @@ This repository includes data, .py files, notebooks, and the developed model to 
 The files are organized as follows::
 
 Team_Challenge_SP17_T03/
+
 │── env/                    # Virtual environment 
+
 │── src/                    # Main source code directory
+
 │   │── data/               # Contains datasets for training and testing
+
 │   │── models/             # Stores machine learning models
+
 │   │── notebooks/          # Stores output notebooks with results from experiments
-│   │── result_notebooks/   # Jupyter notebooks for exploratory data analysis or model development
+
+│   │── result_notebooks/   # Jupyter notebooks for exploratory data analysis or model developmen
+
 │   │── utils/              # Utility scripts for shared functionality
+
 │── .gitignore              # Specifies files and folders to be ignored by Git
+
 │── environment.yml         # Conda environment file with dependencies
+
 │── README.md               # Project documentation and setup instructions
 
 
@@ -39,7 +49,6 @@ conda activate env **Check the list of environments with: conda env list and use
 4. Run the Code
 Navigate to the src/result_notebooks directory.
 Open and execute Team_Pipelines_I.ipynb by running all the cells in order. This will train and save the best-performing ML model.
-
 If you want to test the model, open and execute Team_Pipelines_II.ipynb.
 
 5. Deactivate the Environment When Done
