@@ -37,8 +37,11 @@ cd Team_Challenge_SP17_T03
 
 3. Set Up the Virtual Environment
 Ensure you have Conda installed, then create and activate the environment:
+```bash
 conda env create -f environment.yml
-conda activate env **Check the list of environments with: conda env list and use the name displayed in conda env list.
+conda activate env
+```
+**Check the list of environments with: ```conda env list``` and use the name displayed in conda env list.
 
 4. Run the Code
 Navigate to the src/result_notebooks directory.
