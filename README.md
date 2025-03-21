@@ -7,27 +7,20 @@ This repository includes data, .py files, notebooks, and the developed model to 
 
 The files are organized as follows::
 
+
+```bash
 Team_Challenge_SP17_T03/
-
 │── env/                    # Virtual environment 
-
 │── src/                    # Main source code directory
-
 │   │── data/               # Contains datasets for training and testing
-
 │   │── models/             # Stores machine learning models
-
 │   │── notebooks/          # Stores output notebooks with results from experiments
-
-│   │── result_notebooks/   # Jupyter notebooks for exploratory data analysis or model developmen
-
+│   │── result_notebooks/   # Jupyter notebooks for exploratory data analysis or model development
 │   │── utils/              # Utility scripts for shared functionality
-
 │── .gitignore              # Specifies files and folders to be ignored by Git
-
 │── environment.yml         # Conda environment file with dependencies
-
 │── README.md               # Project documentation and setup instructions
+```
 
 
 The virtual environment defined by the environment.yml file is built using Conda and relies on the conda-forge and defaults channels for package management. It is configured for Python 3.9 and includes a comprehensive set of dependencies for data science, machine learning, and development.
